@@ -1,0 +1,9 @@
+name = "agency-agents"
+main = "src/index.ts"
+compatibility_date = "2025-01-01"
+
+# This ensures the Worker can use standard Node.js APIs if needed.
+compatibility_flags = ["nodejs_compat"]
+
+# The Groq API key will be stored as a secret, not in this file.
+# You will set it in Step 4.
